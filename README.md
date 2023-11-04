@@ -1,8 +1,92 @@
-# Getting Started with Create React App
+# Todo List App with User Authentication
+
+## Project Description
+
+This is a Todo List web application with user authentication features. Users can register for an account, log in, and manage their tasks. Local storage is used to simulate user accounts, and tasks persist in local storage.
+
+## Features
+
+1. **User Authentication**
+   - Users can sign up with a username and password.
+   - Users can log in with their credentials.
+   - Forms are provided for both registration and login.
+
+2. **Authentication State**
+   - User authentication state is managed using React state.
+   - Protected routes ensure that only authenticated users can access specific parts of the application.
+
+3. **Task Management**
+   - Users can create, edit, mark as completed, and delete tasks.
+   - Tasks are associated with the logged-in user.
+   - Task data persists in local storage, preventing data loss on page refresh.
+
+4. **Logout**
+   - A logout button allows users to log out of their accounts.
+
+5. **User Interface**
+   - The application features an intuitive user interface with a clean design for authentication and the todo list.
+   - Tasks are displayed in a list with options to edit, mark as completed, and delete.
+
+6. **Error Handling**
+   - User-friendly error messages are displayed for scenarios such as incorrect login credentials, registration errors, or failed task updates.
+
+## Requirements
+
+- JavaScript
+- React
+- Local Storage
+
+## Getting Started
+
+### Prerequisites
+
+Make sure you have the following prerequisites installed:
+
+- Node.js: [Download Node.js](https://nodejs.org/)
+
+### Installation
+
+1. Clone the repository to your local machine:
+
+  
+   git clone https://github.com/AnkithSharmaji/Todo-List-App-with-User-Authentication.git
+
+
+2. *Change to the project directory*:
+ [**cd todo-list-app**]
 
 
 
+3. *Install the project dependencies* [**npm install**] - Start the application:
 
+
+4. [**npm start**] - *The application will run locally* at http://localhost:3000.
+
+### User Authentication
+To register a new account, click the "Sign Up" link on the login page and complete the registration form.
+To log in, enter your credentials on the login page and click "Log In."
+
+### Authentication State
+The application manages user authentication state internally.
+Certain parts of the application, such as the todo list, are only accessible to authenticated users.
+
+
+### Task Management
+Create tasks by entering a task description and clicking "Add Task."
+Edit tasks by clicking the edit icon.
+Mark tasks as completed by clicking the checkbox.
+Delete tasks by clicking the delete icon.
+### Logout
+Click the "Logout" button to log out of your account.
+### User Interface
+The application features a clean and user-friendly design for both authentication and task management.
+### Error Handling
+If you encounter errors during registration, login, or task management, the application provides clear and informative error messages.
+Security Considerations
+Users can only see and manage their own tasks after logging in.
+Task data is associated with the user who created them and is stored securely using local storage.
+
+##
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
